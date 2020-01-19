@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ab7d547a96e814e84647282abca7c7, type: 3}
+  m_Name: gameobjectpool
+  m_EditorClassIdentifier: 
+  poolList:
+  - name: Bullet
+    prefab: {fileID: 8839987643042196371, guid: 8a93aee2a9c96934c8ae4e6c4e9ec58e,
+      type: 3}
+    maxAmount: 10
+  - name: HitEffect
+    prefab: {fileID: 8839987643042196371, guid: 61f62d3e4af651745b8fee52a144ce92,
+      type: 3}
+    maxAmount: 5
